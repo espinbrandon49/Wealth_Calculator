@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Wealth Calculator</title>
+  </head>
+  <body>
+    <h2>Wealth Calculator</h2>
+    <main>
+      <div class="buttons">
+        <button class="btn" id="addUser">Add User 👱‍♂️</button>
+        <button class="btn" id="doubleMoney">Double Money 💰</button>
+        <button class="btn" id="showOnlyMillionaires">Show Only Millionaires 💵</button>
+        <button class="btn" id="sortByRichest">Sort By Richest ↓</button>
+        <button class="btn" id="calculateEntireWealth">Calculate entire Wealth 🧮</button>
+      </div>
+      <div  class="table" id="table">
+        <div class="row head">
+          <div class="person">Person</div>
+          <div class="wealth">Wealth</div>
+        </div>
+        <div id="users"></div>
+        <div id="ttw" class="row head ttw">
+          <div class="p">Total Wealth</div>
+          <div id="totalWealth" class="wealth">$57,872,509.00</div>
+        </div>
+      </div>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
